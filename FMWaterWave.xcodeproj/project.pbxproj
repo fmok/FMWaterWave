@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D3060A1DF7B9020042D3C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D306091DF7B9020042D3C2 /* main.m */; };
+		84D3060D1DF7B9020042D3C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D3060C1DF7B9020042D3C2 /* AppDelegate.m */; };
+		84D306101DF7B9020042D3C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D3060F1DF7B9020042D3C2 /* ViewController.m */; };
+		84D306131DF7B9020042D3C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D306111DF7B9020042D3C2 /* Main.storyboard */; };
+		84D306161DF7B9020042D3C2 /* FMWaterWave.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D306141DF7B9020042D3C2 /* FMWaterWave.xcdatamodeld */; };
+		84D306181DF7B9020042D3C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D306171DF7B9020042D3C2 /* Assets.xcassets */; };
+		84D3061B1DF7B9020042D3C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D306191DF7B9020042D3C2 /* LaunchScreen.storyboard */; };
+		84D306261DF7B9020042D3C2 /* FMWaterWaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D306251DF7B9020042D3C2 /* FMWaterWaveTests.m */; };
+		84D306311DF7B9020042D3C2 /* FMWaterWaveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D306301DF7B9020042D3C2 /* FMWaterWaveUITests.m */; };
+		84D306411DF7E4AC0042D3C2 /* FMWaveLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D306401DF7E4AC0042D3C2 /* FMWaveLoadingView.m */; };
+		84D306491DF7E5BF0042D3C2 /* blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D306431DF7E5BF0042D3C2 /* blue@2x.png */; };
+		84D3064A1DF7E5BF0042D3C2 /* blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D306441DF7E5BF0042D3C2 /* blue@3x.png */; };
+		84D3064B1DF7E5BF0042D3C2 /* du@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D306451DF7E5BF0042D3C2 /* du@2x.png */; };
+		84D3064C1DF7E5BF0042D3C2 /* du@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D306461DF7E5BF0042D3C2 /* du@3x.png */; };
+		84D3064D1DF7E5BF0042D3C2 /* gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D306471DF7E5BF0042D3C2 /* gray@2x.png */; };
+		84D3064E1DF7E5BF0042D3C2 /* gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D306481DF7E5BF0042D3C2 /* gray@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D306221DF7B9020042D3C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D305FD1DF7B9020042D3C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D306041DF7B9020042D3C2;
+			remoteInfo = FMWaterWave;
+		};
+		84D3062D1DF7B9020042D3C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D305FD1DF7B9020042D3C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D306041DF7B9020042D3C2;
+			remoteInfo = FMWaterWave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D306051DF7B9020042D3C2 /* FMWaterWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMWaterWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D306091DF7B9020042D3C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D3060B1DF7B9020042D3C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84D3060C1DF7B9020042D3C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84D3060E1DF7B9020042D3C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84D3060F1DF7B9020042D3C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84D306121DF7B9020042D3C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D306151DF7B9020042D3C2 /* FMWaterWave.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FMWaterWave.xcdatamodel; sourceTree = "<group>"; };
+		84D306171DF7B9020042D3C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D3061A1DF7B9020042D3C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D3061C1DF7B9020042D3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D306211DF7B9020042D3C2 /* FMWaterWaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMWaterWaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D306251DF7B9020042D3C2 /* FMWaterWaveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMWaterWaveTests.m; sourceTree = "<group>"; };
+		84D306271DF7B9020042D3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D3062C1DF7B9020042D3C2 /* FMWaterWaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMWaterWaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D306301DF7B9020042D3C2 /* FMWaterWaveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMWaterWaveUITests.m; sourceTree = "<group>"; };
+		84D306321DF7B9020042D3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D3063F1DF7E4AC0042D3C2 /* FMWaveLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMWaveLoadingView.h; sourceTree = "<group>"; };
+		84D306401DF7E4AC0042D3C2 /* FMWaveLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMWaveLoadingView.m; sourceTree = "<group>"; };
+		84D306431DF7E5BF0042D3C2 /* blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue@2x.png"; sourceTree = "<group>"; };
+		84D306441DF7E5BF0042D3C2 /* blue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue@3x.png"; sourceTree = "<group>"; };
+		84D306451DF7E5BF0042D3C2 /* du@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "du@2x.png"; sourceTree = "<group>"; };
+		84D306461DF7E5BF0042D3C2 /* du@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "du@3x.png"; sourceTree = "<group>"; };
+		84D306471DF7E5BF0042D3C2 /* gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gray@2x.png"; sourceTree = "<group>"; };
+		84D306481DF7E5BF0042D3C2 /* gray@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gray@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D306021DF7B9020042D3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3061E1DF7B9020042D3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D306291DF7B9020042D3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D305FC1DF7B9020042D3C2 = {
+			isa = PBXGroup;
+			children = (
+				84D306071DF7B9020042D3C2 /* FMWaterWave */,
+				84D306241DF7B9020042D3C2 /* FMWaterWaveTests */,
+				84D3062F1DF7B9020042D3C2 /* FMWaterWaveUITests */,
+				84D306061DF7B9020042D3C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D306061DF7B9020042D3C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D306051DF7B9020042D3C2 /* FMWaterWave.app */,
+				84D306211DF7B9020042D3C2 /* FMWaterWaveTests.xctest */,
+				84D3062C1DF7B9020042D3C2 /* FMWaterWaveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D306071DF7B9020042D3C2 /* FMWaterWave */ = {
+			isa = PBXGroup;
+			children = (
+				84D306421DF7E5BF0042D3C2 /* Image */,
+				84D3063E1DF7E4930042D3C2 /* LoadingView */,
+				84D3060B1DF7B9020042D3C2 /* AppDelegate.h */,
+				84D3060C1DF7B9020042D3C2 /* AppDelegate.m */,
+				84D3060E1DF7B9020042D3C2 /* ViewController.h */,
+				84D3060F1DF7B9020042D3C2 /* ViewController.m */,
+				84D306111DF7B9020042D3C2 /* Main.storyboard */,
+				84D306171DF7B9020042D3C2 /* Assets.xcassets */,
+				84D306191DF7B9020042D3C2 /* LaunchScreen.storyboard */,
+				84D3061C1DF7B9020042D3C2 /* Info.plist */,
+				84D306141DF7B9020042D3C2 /* FMWaterWave.xcdatamodeld */,
+				84D306081DF7B9020042D3C2 /* Supporting Files */,
+			);
+			path = FMWaterWave;
+			sourceTree = "<group>";
+		};
+		84D306081DF7B9020042D3C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D306091DF7B9020042D3C2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84D306241DF7B9020042D3C2 /* FMWaterWaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				84D306251DF7B9020042D3C2 /* FMWaterWaveTests.m */,
+				84D306271DF7B9020042D3C2 /* Info.plist */,
+			);
+			path = FMWaterWaveTests;
+			sourceTree = "<group>";
+		};
+		84D3062F1DF7B9020042D3C2 /* FMWaterWaveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84D306301DF7B9020042D3C2 /* FMWaterWaveUITests.m */,
+				84D306321DF7B9020042D3C2 /* Info.plist */,
+			);
+			path = FMWaterWaveUITests;
+			sourceTree = "<group>";
+		};
+		84D3063E1DF7E4930042D3C2 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				84D3063F1DF7E4AC0042D3C2 /* FMWaveLoadingView.h */,
+				84D306401DF7E4AC0042D3C2 /* FMWaveLoadingView.m */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		84D306421DF7E5BF0042D3C2 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				84D306431DF7E5BF0042D3C2 /* blue@2x.png */,
+				84D306441DF7E5BF0042D3C2 /* blue@3x.png */,
+				84D306451DF7E5BF0042D3C2 /* du@2x.png */,
+				84D306461DF7E5BF0042D3C2 /* du@3x.png */,
+				84D306471DF7E5BF0042D3C2 /* gray@2x.png */,
+				84D306481DF7E5BF0042D3C2 /* gray@3x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D306041DF7B9020042D3C2 /* FMWaterWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D306351DF7B9020042D3C2 /* Build configuration list for PBXNativeTarget "FMWaterWave" */;
+			buildPhases = (
+				84D306011DF7B9020042D3C2 /* Sources */,
+				84D306021DF7B9020042D3C2 /* Frameworks */,
+				84D306031DF7B9020042D3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMWaterWave;
+			productName = FMWaterWave;
+			productReference = 84D306051DF7B9020042D3C2 /* FMWaterWave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D306201DF7B9020042D3C2 /* FMWaterWaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D306381DF7B9020042D3C2 /* Build configuration list for PBXNativeTarget "FMWaterWaveTests" */;
+			buildPhases = (
+				84D3061D1DF7B9020042D3C2 /* Sources */,
+				84D3061E1DF7B9020042D3C2 /* Frameworks */,
+				84D3061F1DF7B9020042D3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D306231DF7B9020042D3C2 /* PBXTargetDependency */,
+			);
+			name = FMWaterWaveTests;
+			productName = FMWaterWaveTests;
+			productReference = 84D306211DF7B9020042D3C2 /* FMWaterWaveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D3062B1DF7B9020042D3C2 /* FMWaterWaveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D3063B1DF7B9020042D3C2 /* Build configuration list for PBXNativeTarget "FMWaterWaveUITests" */;
+			buildPhases = (
+				84D306281DF7B9020042D3C2 /* Sources */,
+				84D306291DF7B9020042D3C2 /* Frameworks */,
+				84D3062A1DF7B9020042D3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D3062E1DF7B9020042D3C2 /* PBXTargetDependency */,
+			);
+			name = FMWaterWaveUITests;
+			productName = FMWaterWaveUITests;
+			productReference = 84D3062C1DF7B9020042D3C2 /* FMWaterWaveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D305FD1DF7B9020042D3C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = wangjiuyin;
+				TargetAttributes = {
+					84D306041DF7B9020042D3C2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					84D306201DF7B9020042D3C2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84D306041DF7B9020042D3C2;
+					};
+					84D3062B1DF7B9020042D3C2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84D306041DF7B9020042D3C2;
+					};
+				};
+			};
+			buildConfigurationList = 84D306001DF7B9020042D3C2 /* Build configuration list for PBXProject "FMWaterWave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D305FC1DF7B9020042D3C2;
+			productRefGroup = 84D306061DF7B9020042D3C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D306041DF7B9020042D3C2 /* FMWaterWave */,
+				84D306201DF7B9020042D3C2 /* FMWaterWaveTests */,
+				84D3062B1DF7B9020042D3C2 /* FMWaterWaveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D306031DF7B9020042D3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D306491DF7E5BF0042D3C2 /* blue@2x.png in Resources */,
+				84D3064E1DF7E5BF0042D3C2 /* gray@3x.png in Resources */,
+				84D3064B1DF7E5BF0042D3C2 /* du@2x.png in Resources */,
+				84D3064A1DF7E5BF0042D3C2 /* blue@3x.png in Resources */,
+				84D3064D1DF7E5BF0042D3C2 /* gray@2x.png in Resources */,
+				84D3064C1DF7E5BF0042D3C2 /* du@3x.png in Resources */,
+				84D3061B1DF7B9020042D3C2 /* LaunchScreen.storyboard in Resources */,
+				84D306181DF7B9020042D3C2 /* Assets.xcassets in Resources */,
+				84D306131DF7B9020042D3C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3061F1DF7B9020042D3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3062A1DF7B9020042D3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D306011DF7B9020042D3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D306101DF7B9020042D3C2 /* ViewController.m in Sources */,
+				84D306161DF7B9020042D3C2 /* FMWaterWave.xcdatamodeld in Sources */,
+				84D306411DF7E4AC0042D3C2 /* FMWaveLoadingView.m in Sources */,
+				84D3060D1DF7B9020042D3C2 /* AppDelegate.m in Sources */,
+				84D3060A1DF7B9020042D3C2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3061D1DF7B9020042D3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D306261DF7B9020042D3C2 /* FMWaterWaveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D306281DF7B9020042D3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D306311DF7B9020042D3C2 /* FMWaterWaveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D306231DF7B9020042D3C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D306041DF7B9020042D3C2 /* FMWaterWave */;
+			targetProxy = 84D306221DF7B9020042D3C2 /* PBXContainerItemProxy */;
+		};
+		84D3062E1DF7B9020042D3C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D306041DF7B9020042D3C2 /* FMWaterWave */;
+			targetProxy = 84D3062D1DF7B9020042D3C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D306111DF7B9020042D3C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D306121DF7B9020042D3C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84D306191DF7B9020042D3C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D3061A1DF7B9020042D3C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D306331DF7B9020042D3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D306341DF7B9020042D3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D306361DF7B9020042D3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FMWaterWave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMWaterWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84D306371DF7B9020042D3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FMWaterWave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMWaterWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84D306391DF7B9020042D3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FMWaterWaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMWaterWaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMWaterWave.app/FMWaterWave";
+			};
+			name = Debug;
+		};
+		84D3063A1DF7B9020042D3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FMWaterWaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMWaterWaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMWaterWave.app/FMWaterWave";
+			};
+			name = Release;
+		};
+		84D3063C1DF7B9020042D3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FMWaterWaveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMWaterWaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FMWaterWave;
+			};
+			name = Debug;
+		};
+		84D3063D1DF7B9020042D3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FMWaterWaveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMWaterWaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FMWaterWave;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D306001DF7B9020042D3C2 /* Build configuration list for PBXProject "FMWaterWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D306331DF7B9020042D3C2 /* Debug */,
+				84D306341DF7B9020042D3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D306351DF7B9020042D3C2 /* Build configuration list for PBXNativeTarget "FMWaterWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D306361DF7B9020042D3C2 /* Debug */,
+				84D306371DF7B9020042D3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D306381DF7B9020042D3C2 /* Build configuration list for PBXNativeTarget "FMWaterWaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D306391DF7B9020042D3C2 /* Debug */,
+				84D3063A1DF7B9020042D3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D3063B1DF7B9020042D3C2 /* Build configuration list for PBXNativeTarget "FMWaterWaveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D3063C1DF7B9020042D3C2 /* Debug */,
+				84D3063D1DF7B9020042D3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84D306141DF7B9020042D3C2 /* FMWaterWave.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84D306151DF7B9020042D3C2 /* FMWaterWave.xcdatamodel */,
+			);
+			currentVersion = 84D306151DF7B9020042D3C2 /* FMWaterWave.xcdatamodel */;
+			path = FMWaterWave.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84D305FD1DF7B9020042D3C2 /* Project object */;
+}
