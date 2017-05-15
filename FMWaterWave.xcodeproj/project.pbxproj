@@ -249,6 +249,7 @@
 				TargetAttributes = {
 					84D306041DF7B9020042D3C2 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 538CZ4N2AQ;
 						ProvisioningStyle = Automatic;
 					};
 					84D306201DF7B9020042D3C2 = {
@@ -474,7 +475,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 538CZ4N2AQ;
 				INFOPLIST_FILE = FMWaterWave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMWaterWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,7 +488,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 538CZ4N2AQ;
 				INFOPLIST_FILE = FMWaterWave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMWaterWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";

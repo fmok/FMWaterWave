@@ -15,7 +15,7 @@ typedef NS_ENUM(NSInteger, FMWavePathType) {
 
 @interface FMWaveLoadingView()
 
-@property (nonatomic, assign) CGFloat frequency;
+@property (nonatomic, assign) CGFloat frequency;  // 频率
 @property (nonatomic, strong) UIImageView *grayImageView;
 @property (nonatomic, strong) UIImageView *sineImageView;
 @property (nonatomic, strong) UIImageView *cosineImageView;
@@ -26,10 +26,10 @@ typedef NS_ENUM(NSInteger, FMWavePathType) {
 @property (nonatomic, assign) CGFloat waveWidth;
 @property (nonatomic, assign) CGFloat waveHeight;
 @property (nonatomic, assign) CGFloat waveMid;
-@property (nonatomic, assign) CGFloat maxAmplitude;
+@property (nonatomic, assign) CGFloat maxAmplitude;  // 振幅
 
-@property (nonatomic, assign) CGFloat phaseShift;
-@property (nonatomic, assign) CGFloat phase;
+@property (nonatomic, assign) CGFloat phaseShift;  // 相位变化
+@property (nonatomic, assign) CGFloat phase;  // 相位
 
 @end
 
@@ -44,7 +44,7 @@ static CGFloat kWavePositionDuration = 5;
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
-    self =[super initWithFrame:frame];
+    self = [super initWithFrame:frame];
     if (self) {
         [self setupSubViews];
     }
@@ -139,7 +139,7 @@ static CGFloat kWavePositionDuration = 5;
         CGFloat y = 0;
         if (pathType == FMWavePathType_Sin) {
             y = self.maxAmplitude * sinf(360.0 / _waveWidth * (x  * M_PI / 180) * self.frequency + self.phase * M_PI/ 180) + self.maxAmplitude;
-        } else {
+        } else if (pathType == FMWavePathType_Cos) {
             y = self.maxAmplitude * cosf(360.0 / _waveWidth *(x  * M_PI / 180) * self.frequency + self.phase * M_PI/ 180) + self.maxAmplitude;
         }
         
